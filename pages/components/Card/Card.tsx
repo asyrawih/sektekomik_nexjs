@@ -19,7 +19,6 @@ const Card = () => {
                 pos={'relative'}
                 zIndex={1}
             >
-
                 <Box
                     rounded={'lg'}
                     mt={-20}
@@ -50,7 +49,7 @@ const Card = () => {
                         src={IMAGE}
                     />
                 </Box>
-                <Stack pt={10} align={'center'}>
+                <Stack pt={10} align={'flex-start'}>
                     <Heading fontSize={'2xl'} fontFamily={'body'} fontWeight={500}>
                         Magic Emperor
                     </Heading>
